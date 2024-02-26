@@ -1,0 +1,182 @@
+.all-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 1;
+}
+
+@media (max-width: 900px) {
+  .all-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+  }
+ 
+  .leftside-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .below-texts{
+    font-size: 14px;
+    width: 0px;
+}
+
+.logo{
+    margin-left: 70px;
+}
+
+.below-texts p{
+    font-size: 20px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    margin-left: 120px;
+}
+
+.below-texts{
+margin-top: 20px;
+}}
+
+
+.leftside-container{
+    margin-right: 100px;
+}
+
+
+.logo{
+    width: 18rem;
+    margin-bottom: -32px;
+}
+
+.below-texts{
+    font-size: 26px;
+    width: 29rem;
+    line-height: 30px;
+    margin-left: 26px;
+}
+ 
+body{
+    margin-bottom: 100px;
+}
+
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    background:  #F2F3F5;
+}
+
+.rightbox-container{
+    background-color: white;
+    width: 23rem;
+    height: 19rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.297);
+}
+
+.mail,
+.password
+{
+    display: block;
+    width: 19rem;
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.098);
+   outline: none;
+}
+
+.password{
+    margin-top: 8px;
+}
+
+.mail:focus,
+.password:focus{
+    outline: 1px solid #1877F2;
+}
+
+.login-button{
+    background-color: white;
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+}
+.login-button button{
+    background-color: #1877F2;
+    color: white; 
+    width: 326px;
+    padding: 16px;
+    border-radius: 4px;
+    border: none;
+    transition: 0.5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.login-button button:hover{
+    background-color: #3484ec;
+}
+
+.forget{
+    background-color: white;
+   color: #538efd;
+   font-size: 14px;
+   margin-top: 14px;
+}
+
+.forget:hover{
+    text-decoration: underline;
+}
+
+.horizontal-line{
+    width: 310px;
+    margin-top: 14px;
+    border-top: 1px solid lightgray;
+}
+
+.bellow-button{
+    background-color: white;
+}
+
+.bellow-button button{
+    background-color: #00A400;
+    border: none;
+    color: white;
+    width: 210px;
+    padding: 16px;
+    border-radius: 6px;
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bellow-button button:hover{
+    background-color: #008d00;
+}
+
+.box-below-text{
+    font-size: 14px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    margin-top: 12px;
+}
+
+.box-below-text p{
+    margin-left: 4px;
+}
+.box-below-text span{
+    font-weight: bold;
+    font-size: 14px;
+}
